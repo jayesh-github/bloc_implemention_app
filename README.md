@@ -4,7 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a demonstration of Bloc Pattern and Implementation of Cubit both. 
+There are two parts of the app:
+1. Internet App : This part is made using bloc which detects internet and directs to counter page on successful internet connection. If internet is lost then redirects back to a page which shows internet lost.
+2. Counter App : This part uses Cubit. A simple counter application that uses cubit functionality and shows how to use it.
 
 A few resources to get you started if this is your first Flutter project:
 
